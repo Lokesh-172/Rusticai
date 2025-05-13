@@ -9,9 +9,7 @@ export default function Home() {
   return (
     <>
       <div className="min-h-screen flex flex-col bg-gradient-to-b from-purple-100 via-indigo-100 to-white overflow-hidden transition-colors duration-300 relative">
-        {/* Position FloatingSvgs with a higher z-index to overlay content */}
         <FloatingSvgs />
-        
         <div className="container mx-auto px-4 pt-44 pb-12 relative z-20 flex-grow">
           <div className="text-center max-w-6xl mx-auto py-12">
             <motion.h1
